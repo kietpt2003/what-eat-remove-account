@@ -71,7 +71,7 @@ export default function RemoveAccount() {
                         marginTop: "10%",
                         marginBottom: "10%"
                     }}>
-                        <Typography fontSize={"2vw"} textAlign={"center"}>Xác nhận xóa tài khoản của bạn?</Typography>
+                        <Typography fontSize={"2vw"} textAlign={"center"}>Xác nhận xóa tài khoản và dữ liệu của bạn?</Typography>
                     </Box>
                     <Box sx={{
                         display: "flex",
@@ -95,7 +95,7 @@ export default function RemoveAccount() {
                                 () => {
                                     handleSubmit()
                                 }}>
-                            XÓA TÀI KHOẢN
+                            XÓA TÀI KHOẢN VÀ DỮ LIỆU
                         </Button>
                     </Box>
                     {
